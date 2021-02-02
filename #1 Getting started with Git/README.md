@@ -1,4 +1,4 @@
-<img src="./img/1.png"/>
+<img src="./1.png"/>
 
 # Section 1.1: Create your first repository, then add and commit files
 
