@@ -1,3 +1,5 @@
+![Banner](./2.png)
+
 # Section 1.1: "Regular" Git Log
 
 ```bash
@@ -32,8 +34,8 @@ To use the alias version:
 git p-log
 
 # combined history of active branch (HEAD), develop and origin/master branches :
-
 git p-log HEAD develop origin/master
+
 # combined history of everything in your repo :
 git p-log --all
 ```
