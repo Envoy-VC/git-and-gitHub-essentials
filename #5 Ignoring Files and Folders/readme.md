@@ -1,3 +1,5 @@
+<img src="./5.png"/>
+
 # 📌Section 1.1: Ignoring files and directories with a .gitignore file
 
 You can make Git ignore certain files and directories — that is, exclude them from being tracked by Git — by

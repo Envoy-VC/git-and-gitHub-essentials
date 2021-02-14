@@ -1,3 +1,4 @@
+<img src="./4.png"/>
 # 📌Section 1.1: Staging All Changes to Files
 
 ```bash
