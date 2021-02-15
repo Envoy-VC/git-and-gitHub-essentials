@@ -3,6 +3,7 @@
 # 📌Section 1.1: Show dierences in working branch
 
 ```git diff```
+
 This will show the unstaged changes on the current branch from the commit before it. It will only show changes
 relative to the index, meaning it shows what you could add to the next commit, but haven't. To add (stage) these
 changes, you can use git add.
