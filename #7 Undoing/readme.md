@@ -52,9 +52,19 @@ git reset --hard
 Without the --hard flag this will do a soft reset
 
 
-# 📌Section 1.3: Using reflog
-# 📌
-# 📌
-# 📌
-# 📌
-# 📌
+# 📌Section 1.3: Revert some existing commits
+
+Use git revert to revert existing commits, especially when those commits have been pushed to a remote repository.
+It records some new commits to reverse the effect of some earlier commits, which you can push safely without
+rewriting history.
+
+
+**Don't** use `git push --force` unless you wish to bring down the opprobrium of all other users of that repository.
+Never rewrite public history.
+
+
+If, for example, you've just pushed up a commit that contains a bug and you need to back it out, do the following:
+```bash
+git revert HEAD~1
+git push
+```
